@@ -41,7 +41,7 @@ app.get('/', (req, res) => {
         <form action="https://rekruto.onrender.com/?" method="get">
            <div class="form-control">
             <label for="name">Name</label>
-            <input type="text" name="name" id="name"  placeholder="Rekruto">
+            <input type="text" name="name" id="name"  placeholder="name...">
            </div> <br />
            <div class="form-control">
             <label for="message">Message</label>
