@@ -38,7 +38,7 @@ app.get('/', (req, res) => {
 
         <h5>addition</h5>
         <div class="ms-container">
-        <form action="http://localhost:3000/?" method="get">
+        <form action="https://rekruto.onrender.com/?" method="get">
            <div class="form-control">
             <label for="name">Name</label>
             <input type="text" name="name" id="name"  placeholder="Rekruto">
