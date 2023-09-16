@@ -59,6 +59,11 @@ app.get('/', (req, res) => {
   res.send(html);
 });
 
-app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
-});
+try {
+  app.listen(port, () => {
+    console.log(`Server is running on http://localhost:${port}`);
+  });
+  
+} catch (error) {
+  console.log(error);
+}
